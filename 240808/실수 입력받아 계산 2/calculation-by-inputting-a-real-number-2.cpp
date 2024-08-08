@@ -10,6 +10,6 @@ int main() {
 
     std::cout.precision(3);
 
-    std::cout << a;
+    std::cout << floor(a);
     return 0;
 }
