@@ -11,6 +11,10 @@ int main() {
 
     std::cout.precision(3);
 
-    std::cout << floor(a);
+    a *= 100;
+    a = trunc(a);
+    a /= 100;
+
+    std::cout << a;
     return 0;
 }
