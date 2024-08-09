@@ -5,8 +5,8 @@ int main() {
     int a;
     std::cin >> a;
 
-    std::cout << (a % 3 == 0 ? "yes" : "no") << "\n";
-    std::cout << (a % 5 == 0 ? "yes" : "no");
+    std::cout << (a % 3 == 0 ? "YES" : "NO") << "\n";
+    std::cout << (a % 5 == 0 ? "YES" : "NO");
 
     return 0;
 }
