@@ -1,16 +1,12 @@
 #include <iostream>
-#include <math.h>
 using namespace std;
 
 int main() {
-    
-    double a ;
+    float a;
     std::cin >> a;
-
     a += 1.5f;
-
-    std::cout.precision(3);
-
+    std::cout << std::fixed;
+    std::cout.precision(2);
     std::cout << a;
     return 0;
 }
