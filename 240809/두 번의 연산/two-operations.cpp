@@ -5,7 +5,7 @@ int main() {
     int a;
     std::cin >>a;
 
-    if(a | 1 == 1)
+    if(a & 1 == 1)
     {
         a += 3;
     }
