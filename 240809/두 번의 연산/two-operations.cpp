@@ -7,7 +7,7 @@ int main() {
 
     if(a | 1 == 1)
     {
-        a *= 3;
+        a += 3;
     }
     if(a % 3 == 0)
     {
@@ -15,7 +15,7 @@ int main() {
     }
 
     std::cout << a;
-    
+
 
     return 0;
 
