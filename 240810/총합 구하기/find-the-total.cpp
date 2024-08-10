@@ -11,6 +11,6 @@ int main() {
             r += i;
         }
     }
-    std::Cout << r;
+    std::cout << r;
     return 0;
 }
