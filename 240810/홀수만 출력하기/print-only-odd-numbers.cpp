@@ -8,7 +8,7 @@ int main() {
     {
         int a;
         std::cin >> a;
-        if(a % 3 == 0)
+        if(a % 3 == 0 && a%2 == 1)
         std::cout << a << "\n";
 
     }
