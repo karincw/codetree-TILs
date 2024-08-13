@@ -9,10 +9,8 @@ int main() {
     int result = 0;
     for (int i = 1; n >= 1; i++)
     {
-        if(n >= 1)
-        {
             result++;
-        }
+        
         n /= i;
     }
     std::cout << result;
