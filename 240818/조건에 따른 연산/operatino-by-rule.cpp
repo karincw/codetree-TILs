@@ -5,21 +5,19 @@ int main() {
     int n;
     std::cin >> n;
 
-    int cnt = -1;
+    int cnt = 0;
 
     while (n < 1000)
     {
-        if(n / 2 == 0)
+        cnt++;
+        if(n % 2 == 0)
         {
-            n*=3;
-            n+=1;
+            n = n*3+1;
         }
         else
         {
-            n*=2;
-            n+=2;
+            n = n*2+2;
         }
-        cnt++;
     }
 
     std::cout << cnt;
