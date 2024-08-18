@@ -5,7 +5,7 @@ int main() {
     
     int a,b;
     std::cin >> a>>b;
-    int n = 0, r = 0;
+    int n = 1, r = 0;
     while (n <= a && n <= b)
     {
         n++;
